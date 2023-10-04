@@ -1,0 +1,97 @@
+/* CSS STYLES */
+
+@font-face {
+    font-family: 'gobold-reg';
+    src: url(Fonts/Gobold_Regular.otf) format('woff');
+}
+
+@font-face {
+    font-family: 'gobold-bold';
+    src: url(Fonts/Gobold_Bold.otf) format('woff');
+}
+
+@font-face {
+    font-family: 'gobold-lite';
+    src: url(Fonts/Gobold_Light.otf) format('woff');
+}
+
+@font-face {
+    font-family: 'new-york';
+    src: url(Fonts/NewYork.otf) format('woff');
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-p {
+    display: flex;
+    flex-direction: row;
+}
+
+.success_stories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 500px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .pedro_exp:hover {
+    zoom: 110%;
+  }
+  
+  .square {
+    height: 700px;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    height: 70px;
+    width: 100px;
+    background-color: aqua;
+  }
+
+  .circle {
+    width: 700px;
+    height: 700px;
+    background-color: #de881a;
+    border-radius: 50%;
+  }
+
+  .vl {
+    border-left: 5px solid rgb(39, 55, 55);
+  }
+
+  #footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+  }
+
+  .column2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+  }
+
+  .column3 {
+    float: left;
+    width: 25%;
+    height: 700px;
+  }
